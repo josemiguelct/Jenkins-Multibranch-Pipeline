@@ -6,7 +6,7 @@ pipeline {
 						
 					sh '''
 						echo "Step First"
-						EXECUTE='true'
+						EXECUTE = 'true'
 					'''
 				}
 			}
